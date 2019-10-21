@@ -21,6 +21,7 @@ var Word = function(word){
         };
         this.displayWord();
     };
+
 };
 
 module.exports = Word;

@@ -2,24 +2,20 @@ var Word = require("./word");
 var inquirer = require("inquirer");
 
 var randomWordArray = [
-    "random",
-    "obtuse",
-    "creation",
-    "milkshake",
-    "forest",
-    "german",
-    "french",
-    "plumber",
-    "fundraise",
-    "clear",
-    "heart",
-    "sport",
-    "congrats",
-    "afterglow",
-    "background",
-    "bankruptcy",
-    "aftershock",
-    "mixture"
+    "sweet creature",
+    "all too well",
+    "beige",
+    "truth hurts",
+    "dog years",
+    "back in my body",
+    "wildflowers",
+    "storms",
+    "leather and lace",
+    "after the storm",
+    "perfect places",
+    "liability",
+    "supercut",
+    "defying gravity"
 ];
 
 var randomWordIndex = Math.floor(Math.random() * randomWordArray.length);

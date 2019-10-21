@@ -3,6 +3,11 @@ var Letter = function(character){
     this.guessed = false;
 
     this.displayLetter = function(){
+        if(this.letter === " "){
+            this.guessed = true;
+            return " ";
+        };
+
         if(this.guessed){
             return this.letter;
         }else{
@@ -22,9 +27,5 @@ var Letter = function(character){
         this.displayLetter(); 
     };
 };
-
-var newLetter = new Letter("e");
-newLetter.checkUserGuess("f");
-newLetter.checkUserGuess("e");
 
 module.exports = Letter;
