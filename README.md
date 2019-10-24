@@ -12,3 +12,6 @@ This is a word guess game built on javascript object constructors.
 
 ### Dependencies
 * Inquirer NPM
+
+#### Video
+* https://drive.google.com/file/d/1c9BxcuoQWZsTjHu44wSPf-KVOz4BdMWo/view 
